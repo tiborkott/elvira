@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Elvira</string>
+    <string name="honnan">Honnan?</string>
+    <string name="hova">Hova?</string>
+    <string name="mikor">Mikor?</string>
+    <string name="hanykor">Hánykor?</string>
+    <string name="keres_s">Keresés</string>
+    <string name="menetrend">Menetrend</string>
+    <string name="logo">logo</string>
+    <string name="budapest_nyugati">Budapest Nyugati</string>
+    <string name="cegl_d">Cegléd</string>
+    <string name="intercity">Intercity</string>
+    <string name="small_black_arrow">Small black arrow</string>
+</resources>
