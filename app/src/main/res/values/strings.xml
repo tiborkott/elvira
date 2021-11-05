@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Elvira</string>
-    <string name="honnan">Honnan?</string>
     <string name="hova">Hova?</string>
     <string name="mikor">Mikor?</string>
     <string name="hanykor">Hánykor?</string>
@@ -11,4 +10,5 @@
     <string name="cegl_d">Cegléd</string>
     <string name="intercity">Intercity</string>
     <string name="small_black_arrow">Small black arrow</string>
+    <string name="honnan">Honnan?</string>
 </resources>
