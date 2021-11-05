@@ -6,7 +6,6 @@ import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-//API
 //https://apiv2.oroszi.net/elvira?from=Budapest&to=Gy%C5%91r&date=2021.11.03
 
 interface TrainService {
