@@ -5,11 +5,14 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
 
+    >
     <ImageView
-        android:layout_width="match_parent" android:layout_height="match_parent"
-        android:src="@drawable/mav_bg" android:scaleType="centerCrop" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/background_picture"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mav_bg" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="400dp"
@@ -37,9 +40,9 @@
 
             <FrameLayout
                 android:id="@+id/flRectangle"
-                android:layout_width="400dp"
+                android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@drawable/rectangle">
+                android:background="@drawable/rectangle_noborder">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -48,7 +51,8 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="12dp"
                     android:src="@drawable/ic_calendar_today_white_24dp"
-                    app:tint="#FFD800" />
+                    app:tint="@color/white"
+                    android:contentDescription="@string/timetalbe_icon" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -56,7 +60,7 @@
                     android:layout_marginStart="40dp"
                     android:layout_marginTop="8dp"
                     android:text="@string/menetrend"
-                    android:textColor="#FFD800"
+                    android:textColor="@color/white"
                     android:textSize="22sp"
                     android:textStyle="bold" />
             </FrameLayout>
@@ -101,7 +105,10 @@
                 app:backgroundTint="#ffd900" />
 
 
+
+
         </LinearLayout>
+
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

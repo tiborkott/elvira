@@ -14,4 +14,7 @@
     <string name="kil_m_ter">Kilóméter</string>
     <string name="v_g_ny">Vágány</string>
     <string name="llom_sok">Állomások</string>
+    <string name="background_picture">Background picture</string>
+    <string name="timetalbe_icon">Timetalbe icon.</string>
+    <string name="vonatok">Vonatok</string>
 </resources>

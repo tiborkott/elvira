@@ -33,20 +33,15 @@ class DetailsActivity: AppCompatActivity() {
             .client(HTTPLogger.getLogger())
             .build()
 
-
-
         val service = retrofit.create(StationService::class.java)
         val geturl = url.substringAfter("=")
         val call = service.getStations(geturl)
-        var adapter : StationsAdapter? = null
-
-
+        var adapter : StationsAdapter?
 
         call.enqueue(object : Callback<Stations> {
             override fun onResponse(call: Call<Stations>, response: Response<Stations>) {
                 if (response.isSuccessful){
                     Log.d("DEBUG", "GET SUCCESS RESPONSE GOOD")
-                    // loading the stations
                     adapter = response.body()?.let { StationsAdapter(it) }
                     binding.recyclerViewDetails.adapter = adapter
                     binding.recyclerViewDetails.setHasFixedSize(true)

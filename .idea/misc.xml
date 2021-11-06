@@ -14,6 +14,7 @@
         <entry key="app/src/main/res/drawable/intercity_background.xml" value="0.184375" />
         <entry key="app/src/main/res/drawable/passenger_background.xml" value="0.184375" />
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.287962962962963" />
+        <entry key="app/src/main/res/drawable/rounded_background_noborder.xml" value="0.2833333333333333" />
         <entry key="app/src/main/res/drawable/splash_background.xml" value="0.10126410727347059" />
         <entry key="app/src/main/res/drawable/train_fast_background.xml" value="0.28703703703703703" />
         <entry key="app/src/main/res/drawable/train_intercity_background.xml" value="0.28703703703703703" />
@@ -26,8 +27,8 @@
         <entry key="app/src/main/res/layout/activity_load.xml" value="0.16822916666666668" />
         <entry key="app/src/main/res/layout/activity_load2.xml" value="0.23097826086956522" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_search.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/item_station_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.30045871559633025" />
+        <entry key="app/src/main/res/layout/item_station_list.xml" value="0.2623291015625" />
         <entry key="app/src/main/res/layout/item_train_list.xml" value="0.1" />
         <entry key="app/src/main/res/layout/loading_screen.xml" value="0.14437689969604864" />
         <entry key="app/src/main/res/layout/rounded_background.xml" value="0.23822463768115942" />
